@@ -1,17 +1,14 @@
 
 
-const sortArray =(arr)=>{
-   return arr.sort((a,b)=>{
-    a-b;
-   })
 
+
+const sortArray = (arr) => {
+   return arr.sort((a, b) => {
+      return a - b;
+   });
 }
 
-console.log(sortArray([1,3,6,2,8]))
-
-
-
-
+console.log(sortArray([1, 3, 6, 2, 8])); // Output: [1, 2, 3, 6, 8]
 
 
 
