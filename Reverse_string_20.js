@@ -1,10 +1,10 @@
-// const reverseString = (str) =>{
-//      str = str.split("");
-//      let result = str.reverse().join("")
-//      return result;
-// }
+const reverseString = (str) =>{
+     str = str.split("");
+     let result = str.reverse().join("")
+     return result;
+}
 
-// console.log(reverseString("Hello"))
+console.log(reverseString("Hello"))
 
 
 const revString = (value) =>{
